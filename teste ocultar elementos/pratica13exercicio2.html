@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="pratica13exercicio2.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script>
+
+		$(document).ready(function() {
+			$("#botao").click(function(){
+				$(".figuras").toggle();
+			});
+
+		});
+
+	</script>
+</head>
+<body>
+	<div class= "imagens">
+		<img src="imagens/img7.jpg" id="img7" class="figuras">
+		<img src="imagens/img2.jpg" id="img2" class="figuras">
+		<img src="imagens/img3.jpg" id="img3" class="figuras">
+		<img src="imagens/img4.jpg" id="img4" class="figuras">
+		<img src="imagens/img5.jpeg" id="img5" class="figuras">
+		<img src="imagens/img6.jpg" id="img6" class="figuras">
+	</div>
+	<button id="botao">Ocultar/Apresentar</button>
+</body>
+</html>

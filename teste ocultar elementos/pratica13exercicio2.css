@@ -1,0 +1,59 @@
+.imagens{
+	background-color: white;
+	margin: auto;
+	position:relative;
+	left:25%;
+	top:25%;
+  	margin: 20px;
+  	padding: 40px;
+  	width: 500px;
+  	height: 300px;
+  	border: solid;
+}
+#botao{
+	background: blue;
+}
+
+#img7{
+	width: 150px;
+  	height: 150px;
+  	border: 1px solid #FFFF;
+	float:left;
+	}
+
+#img2{
+	width: 150px;
+  	height: 150px;
+  	border: 1px solid #FFFF;
+	float:left;
+	}
+
+#img3{
+	width: 150px;
+  	height: 150px;
+  	border: 1px solid #FFFF;
+	float:left;
+	}
+
+#img4{
+	width: 150px;
+  	height: 150px;
+  	border: 1px solid #FFFF;
+	float:left;
+	}
+#img5{
+	width: 150px;
+  	height: 150px;
+  	border: 1px solid #FFFF;
+	float:left;
+	}
+
+#img6{
+	width: 150px;
+  	height: 150px;
+  	border: 1px solid #FFFF;
+	float:left;
+	}
+.figuras{
+
+}

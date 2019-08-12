@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<meta charset="utf-8">
+	<title>Prática 13</title>
+	<link rel="stylesheet" href="pratica13.css">
+	<script>
+		
+		$(document).ready(function(){
+			$("#botaoA").click(function(){
+				$("#zero").addClass("amarelo")
+				$("#dois").addClass("amarelo")
+			});
+
+		});
+
+
+		$(document).ready(function(){
+			$("#botaoB").click(function(){
+				$("#zero").removeClass("amarelo")
+				$("#dois").removeClass("amarelo")
+			});
+
+		});
+	</script>
+</head>
+<body>
+	<button id="botaoA">Click amarelo</button>
+	<button id="botaoB">Retirar a seleção</button>
+	<p id=zero>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dui tellus, faucibus porta diam eu, tristique sodales dui. Integer augue tellus, faucibus eu diam vitae, accumsan euismod magna. Vestibulum convallis scelerisque nisi ut maximus. Nunc suscipit quam non ligula finibus pharetra. Maecenas tristique auctor dolor et mollis. Phasellus in venenatis metus. Nam at arcu quis mauris maximus venenatis. Fusce dignissim vitae magna id luctus. Sed pretium felis ut justo imperdiet suscipit. Nam sed ipsum ac nunc efficitur dapibus.</p>
+	<p id=um>Morbi in tristique risus. Praesent quis ante et ex viverra vestibulum pulvinar id tortor. Nunc fermentum sit amet quam nec auctor. Curabitur sollicitudin libero enim, sit amet eleifend neque eleifend et. Praesent nulla magna, tincidunt at neque a, rutrum ullamcorper tortor. Nunc placerat malesuada velit, at porttitor nulla consectetur et. In hac habitasse platea dictumst. Nullam consequat lectus sit amet dolor aliquet vehicula. Donec a risus vel purus egestas malesuada. Donec consequat viverra enim.</p>
+
+	<p id=dois>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi gravida libero nec velit. Morbi scelerisque luctus velit. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia justo. Vestibulum facilisis auctor urna.</p>
+
+	<p id=tres> Etiam posuere quam ac quam. Maecenas aliquet accumsan leo. Nullam dapibus fermentum ipsum. Etiam quis quam. Integer lacinia. Nulla est. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Integer vulputate sem a nibh rutrum consequat. </p>
+	
+</body>
+
+</html>
